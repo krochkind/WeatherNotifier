@@ -1,0 +1,19 @@
+{
+    "openweathermap_api_key": "<insert key>",
+    "latitide": 76.300003,
+    "longitude": -148.000000,
+    "temperature_units": "Fahrenheit",
+    "alert_thressholds": {
+        "wind_speed": 40,
+        "temperature": 32,
+        "rain": true
+    },
+    "gmail_login": "<email@gmail.com>",
+    "gmail_pwd": "<gmail pwd>",
+    "send_alerts_to": [
+        {
+            "phone_number": "<phone number>",
+            "wireless_carrier": "<see keys at sms.json>"
+        }
+    ]
+}
