@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ## WeatherNotifier
+=======
+# WeatherNotifier
+>>>>>>> 2202abf9088f8d70982ee39e3ddb2f05e347124a
 
 This script gets the weather forcast for the next 24 hours and sends a text
 message when
@@ -6,6 +10,7 @@ message when
 2. the wind is greater than a specfied speed
 3. the forecast calls for rain
 
+<<<<<<< HEAD
 ## Why?
 I needed to know when the temperature is supposed to dros below freezing, so I
 could cover my citrus trees.  I also needed to know when it is going to rain or
@@ -13,6 +18,8 @@ be windy, so I could close my awning.  By running this script at 8 PM, I get
 notified with ample time
 
 ## How Does It Work?
+=======
+>>>>>>> 2202abf9088f8d70982ee39e3ddb2f05e347124a
 The script uses Gmail to send text messages as email, so it requires a Gmail
 account
 
