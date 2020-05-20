@@ -152,6 +152,8 @@ def main():
         weather_report_item['max_wind']['time'] > 0 or
         weather_report_item['rain']['time'] > 0):
             create_alert_body(weather_report_item, config)
+    else:
+        print("No alerts to trigger")
 
 if __name__ == "__main__":
     main()
