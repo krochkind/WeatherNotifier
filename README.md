@@ -1,4 +1,4 @@
-## WeatherNotifier
+# WeatherNotifier
 This script gets the weather forecast for the next 24 hours and sends a text
 message when
 1. the temperature less than a specified temperature
@@ -29,7 +29,7 @@ Use the *config.json* file to set your configuration settings
 * gmail_login: The Gmail login to send text messages
 * gmail_pwd: The password of the Gmail account
 * send_alerts_to: Array of phone numbers that get text messages
-  * phone_number: Phone number that receives the text
+  * phone_number: Phone number that receives the text  (parentheses or hyphens are optional - they will be stripped out)
   * wireless_carrier: The service carrier that the phone number uses (must match the *sms.json* dictionary)
 
 ## Requirements
